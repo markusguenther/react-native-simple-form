@@ -10,14 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/markusguenther/react-native-simple-form.git"
   },
-  "keywords": [
-    "react-native",
-    "forms"
-  ],
+  "keywords": ["react-native", "forms"],
   "author": "Markus Günther",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/markusguenther/react-native-simple-form/issues"
   },
-  "homepage": "https://github.com/markusguenther/react-native-simple-form#readme"
+  "homepage": "https://github.com/markusguenther/react-native-simple-form#readme",
+  "devDependencies": {
+    "react": "~15.4.2",
+    "react-native": "^0.41.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "form-serialize": "^0.7.2"
+  }
 }
