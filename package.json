@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-form",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Form library for react-native to make forms easier.",
   "main": "Components/index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/markusguenther/react-native-simple-form.git"
   },
-  "keywords": ["react-native", "forms"],
+  "keywords": [
+    "react-native",
+    "forms"
+  ],
   "author": "Markus Günther",
   "license": "MIT",
   "bugs": {
