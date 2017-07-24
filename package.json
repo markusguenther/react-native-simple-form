@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-form",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Form library for react-native to make forms easier.",
   "main": "Components/index.js",
   "scripts": {
