@@ -10,10 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/markusguenther/react-native-simple-form.git"
   },
-  "keywords": [
-    "react-native",
-    "forms"
-  ],
+  "keywords": ["react-native", "forms"],
   "author": "Markus Günther",
   "license": "MIT",
   "bugs": {

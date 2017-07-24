@@ -1,0 +1,3 @@
+rootProject.name = 'ExampleForm'
+
+include ':app'
