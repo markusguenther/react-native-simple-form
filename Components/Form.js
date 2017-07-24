@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import serialize from './serialize';
+import serialize from 'form-serialize';
 
 export default class Form extends React.Component {
   /**
