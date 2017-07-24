@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import serialize from 'form-serialize';
+import _ from 'lodash';
 
 export default class Form extends React.Component {
   /**
@@ -33,7 +33,13 @@ export default class Form extends React.Component {
       fieldsArray[index] = this.fields[id];
     });
 
-    return serialize(fieldsArray);
+    return _.transform(
+      fieldsArray,
+      function(result, item, key) {
+        result[item.name] = item.value;
+      },
+      {}
+    );
   }
 
   /**
